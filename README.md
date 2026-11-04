@@ -38,10 +38,16 @@ Most privacy tooling answers this with a policy. This answers it with a **local 
 
 The skill is a directory with a `SKILL.md` and a `scripts/` folder — the format understood by Claude Code, Codex, Cursor, and other agent runtimes that read `SKILL.md` files.
 
-**Claude Code / skills-compatible agents**
+**One line, any skills-aware agent**
 
 ```bash
-git clone https://github.com/<your-account>/local-only-file-analysis.git \
+npx skills add wxyz199/local-only-file-analysis
+```
+
+**Claude Code**
+
+```bash
+git clone https://github.com/wxyz199/local-only-file-analysis.git \
   ~/.claude/skills/local-only-file-analysis
 ```
 
