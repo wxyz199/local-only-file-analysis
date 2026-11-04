@@ -1,0 +1,5 @@
+# Normalise line endings so the scripts run identically on macOS, Linux and Windows.
+* text=auto eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.csv text eol=lf

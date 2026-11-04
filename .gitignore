@@ -1,0 +1,19 @@
+# local analysis artefacts (never commit these — they may contain pseudonymised business data)
+.local_analysis/
+*.local_analysis/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# secrets / sandbox configs
+.alipay-sandbox.json
+.env
+.env.*
